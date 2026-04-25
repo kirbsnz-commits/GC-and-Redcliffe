@@ -1,111 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour hassounds="0" apprev="21010" appversion="7.1.11" start="node5">
+<tour appversion="7.1.11" start="node5" apprev="21010" hassounds="0">
   <panorama id="node5">
-    <input levelingpitch="0" leveltilesize="510" height="2861" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2861" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingroll="0">
-      <level width="2861" predecode="0" height="2861" preload="0"/>
-      <level width="1430" predecode="0" height="1430" preload="0"/>
-      <level width="715" predecode="0" height="715" preload="0"/>
-      <level width="357" predecode="1" height="357" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="2861" levelingroll="0" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" overlap="1" width="2861">
+      <level height="2861" preload="0" predecode="0" width="2861"/>
+      <level height="1430" preload="0" predecode="0" width="1430"/>
+      <level height="715" preload="0" predecode="0" width="715"/>
+      <level height="357" preload="1" predecode="1" width="357"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start pan="0" fov="100" tilt="0" projection="4"/>
-      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1" tilt="90"/>
+      <start pan="0" tilt="0" fov="100" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="140" fovstereographic="330" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="100_0414" datetime="29/03/2026 12:28 PM" source="" info="" latitude="-27.995186" altitude="-17.70" title="DCIM\PANORAMA\100_0414\DJI" customnodeid="" copyright="" description="" author="" comment="" nodeid="node5" longitude="153.431169" heading="0"/>
-    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
-      <label backgroundalpha="1" wordwrap="1" textalpha="1" backgroundcolor="0xffffff" height="20" enabled="1" width="180" textcolor="0x000000" background="1" bordercolor="0x000000" borderalpha="1" borderradius="1" border="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot pan="-297.57" skinid="ht_node" title="DCIM\PANORAMA\101_0244\DJI" id="Point01" tilt="6.59" url="{node3}" distance="682.527" description="" target=""/>
+    <userdata copyright="" customnodeid="" description="" longitude="153.431169" nodeid="node5" tags="100_0414" altitude="-17.70" heading="0" title="DCIM\PANORAMA\100_0414\DJI" info="" author="" comment="" latitude="-27.995186" datetime="29/03/2026 12:28 PM" source=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label height="20" textcolor="0x000000" borderalpha="1" bordercolor="0x000000" enabled="1" backgroundalpha="1" background="1" border="1" backgroundcolor="0xffffff" textalpha="1" borderradius="1" wordwrap="1" width="180"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0"/>
+      <hotspot pan="-297.57" description="" url="{node3}" skinid="ht_node" tilt="6.59" title="DCIM\PANORAMA\101_0244\DJI" id="Point01" target="" distance="682.527"/>
+      <hotspot pan="-185.85" tilt="14.74" title="IMG_20250301_1323162 Panorama2" description="" skinid="ht_node" id="Point02" url="{node4}" target=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomafteroutfov="40" zoomin="0" zoomout="0" enabled="1" zoomafterinfov="140" blendtime="1" zoomspeed="2" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" delay="none"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control lockedkeyboardzoom="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" speedwheel="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" hideabout="0" sensitivity="8" lockedwheel="0"/>
+    <transition delay="none" softedge="0" zoomfov="40" blendcolor="0x000000" enabled="1" zoomafterinfov="140" type="crossdissolve" zoomin="0" blendtime="1" zoomspeed="2" zoomout="0" zoomoutpause="1" zoomafteroutfov="40"/>
+    <animation clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertcontrol="1" lockedwheel="0" hideabout="0" sensitivity="8" lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" invertwheel="0" simulatemass="1" zoomcentercursor="1" speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node3">
-    <input levelingpitch="0" leveltilesize="510" height="2881" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2881" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingroll="0">
-      <level width="2881" predecode="0" height="2881" preload="0"/>
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="2881" levelingroll="0" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" overlap="1" width="2881">
+      <level height="2881" preload="0" predecode="0" width="2881"/>
+      <level height="1440" preload="0" predecode="0" width="1440"/>
+      <level height="720" preload="0" predecode="0" width="720"/>
+      <level height="360" preload="1" predecode="1" width="360"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start pan="-90.5498" fov="100" tilt="1.21802" projection="4"/>
-      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1" tilt="90"/>
+      <start pan="-90.5498" tilt="1.21802" fov="100" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="140" fovstereographic="330" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="goldcoastpanorama" datetime="29/03/2026 11:06 AM" source="" info="" latitude="-27.993831" altitude="1.20" title="DCIM\PANORAMA\101_0244\DJI" customnodeid="" copyright="" description="" author="" comment="" nodeid="node3" longitude="153.424389" heading="0"/>
-    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
-      <label backgroundalpha="1" wordwrap="1" textalpha="1" backgroundcolor="0xffffff" height="20" enabled="1" width="180" textcolor="0x000000" background="1" bordercolor="0x000000" borderalpha="1" borderradius="1" border="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot pan="-282.59" skinid="ht_node" title="DCIM\PANORAMA\100_0352\DJI" id="Point01" tilt="2.87" url="{node2}" distance="443.008" description="" target=""/>
-      <hotspot pan="-94.13" skinid="ht_node" title="DCIM\PANORAMA\100_0414\DJI" id="Point02" tilt="4.96" url="{node5}" distance="682.527" description="" target=""/>
+    <userdata copyright="" customnodeid="" description="" longitude="153.424389" nodeid="node3" tags="goldcoastpanorama" altitude="1.20" heading="0" title="DCIM\PANORAMA\101_0244\DJI" info="" author="" comment="" latitude="-27.993831" datetime="29/03/2026 11:06 AM" source=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label height="20" textcolor="0x000000" borderalpha="1" bordercolor="0x000000" enabled="1" backgroundalpha="1" background="1" border="1" backgroundcolor="0xffffff" textalpha="1" borderradius="1" wordwrap="1" width="180"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0"/>
+      <hotspot pan="-282.59" description="" url="{node2}" skinid="ht_node" tilt="2.87" title="DCIM\PANORAMA\100_0352\DJI" id="Point01" target="" distance="443.008"/>
+      <hotspot pan="-94.13" description="" url="{node5}" skinid="ht_node" tilt="4.96" title="DCIM\PANORAMA\100_0414\DJI" id="Point02" target="" distance="682.527"/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomafteroutfov="40" zoomin="0" zoomout="0" enabled="1" zoomafterinfov="140" blendtime="1" zoomspeed="2" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" delay="none"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control lockedkeyboardzoom="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" speedwheel="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" hideabout="0" sensitivity="8" lockedwheel="0"/>
+    <transition delay="none" softedge="0" zoomfov="40" blendcolor="0x000000" enabled="1" zoomafterinfov="140" type="crossdissolve" zoomin="0" blendtime="1" zoomspeed="2" zoomout="0" zoomoutpause="1" zoomafteroutfov="40"/>
+    <animation clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertcontrol="1" lockedwheel="0" hideabout="0" sensitivity="8" lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" invertwheel="0" simulatemass="1" zoomcentercursor="1" speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node2">
-    <input levelingpitch="0" leveltilesize="510" height="2877" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2877" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingroll="0">
-      <level width="2877" predecode="0" height="2877" preload="0"/>
-      <level width="1438" predecode="0" height="1438" preload="0"/>
-      <level width="719" predecode="0" height="719" preload="0"/>
-      <level width="359" predecode="1" height="359" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="2877" levelingroll="0" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" overlap="1" width="2877">
+      <level height="2877" preload="0" predecode="0" width="2877"/>
+      <level height="1438" preload="0" predecode="0" width="1438"/>
+      <level height="719" preload="0" predecode="0" width="719"/>
+      <level height="359" preload="1" predecode="1" width="359"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start pan="0" fov="100" tilt="0" projection="4"/>
-      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1" tilt="90"/>
+      <start pan="0" tilt="0" fov="100" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="140" fovstereographic="330" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="goldcoastpanorama" datetime="29/03/2026 11:43 AM" source="" info="" latitude="-27.992578" altitude="77.60" title="DCIM\PANORAMA\100_0352\DJI" customnodeid="" copyright="" description="" author="" comment="" nodeid="node2" longitude="153.420106" heading="0"/>
-    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
-      <label backgroundalpha="1" wordwrap="1" textalpha="1" backgroundcolor="0xffffff" height="20" enabled="1" width="180" textcolor="0x000000" background="1" bordercolor="0x000000" borderalpha="1" borderradius="1" border="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot url="{node4}" pan="-145.58" description="" skinid="ht_node" title="IMG_20250301_1323162 Panorama2" id="Point02" tilt="7.07" target=""/>
-      <hotspot pan="-107.75" skinid="ht_node" title="DCIM\PANORAMA\101_0244\DJI" id="Point01" tilt="-0.69" url="{node3}" distance="443.008" description="" target=""/>
+    <userdata copyright="" customnodeid="" description="" longitude="153.420106" nodeid="node2" tags="goldcoastpanorama" altitude="77.60" heading="0" title="DCIM\PANORAMA\100_0352\DJI" info="" author="" comment="" latitude="-27.992578" datetime="29/03/2026 11:43 AM" source=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label height="20" textcolor="0x000000" borderalpha="1" bordercolor="0x000000" enabled="1" backgroundalpha="1" background="1" border="1" backgroundcolor="0xffffff" textalpha="1" borderradius="1" wordwrap="1" width="180"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0"/>
+      <hotspot pan="-145.58" tilt="7.07" title="IMG_20250301_1323162 Panorama2" description="" skinid="ht_node" id="Point02" url="{node4}" target=""/>
+      <hotspot pan="-107.75" description="" url="{node3}" skinid="ht_node" tilt="-0.69" title="DCIM\PANORAMA\101_0244\DJI" id="Point01" target="" distance="443.008"/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomafteroutfov="40" zoomin="0" zoomout="0" enabled="1" zoomafterinfov="140" blendtime="1" zoomspeed="2" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" delay="none"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control lockedkeyboardzoom="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" speedwheel="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" hideabout="0" sensitivity="8" lockedwheel="0"/>
+    <transition delay="none" softedge="0" zoomfov="40" blendcolor="0x000000" enabled="1" zoomafterinfov="140" type="crossdissolve" zoomin="0" blendtime="1" zoomspeed="2" zoomout="0" zoomoutpause="1" zoomafteroutfov="40"/>
+    <animation clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertcontrol="1" lockedwheel="0" hideabout="0" sensitivity="8" lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" invertwheel="0" simulatemass="1" zoomcentercursor="1" speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node4">
-    <input levelingpitch="0" leveltilesize="510" height="4500" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4500" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingroll="0">
-      <level width="4500" predecode="0" height="4500" preload="0"/>
-      <level width="2250" predecode="0" height="2250" preload="0"/>
-      <level width="1125" predecode="0" height="1125" preload="0"/>
-      <level width="562" predecode="0" height="562" preload="0"/>
-      <level width="281" predecode="1" height="281" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="4500" levelingroll="0" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" overlap="1" width="4500">
+      <level height="4500" preload="0" predecode="0" width="4500"/>
+      <level height="2250" preload="0" predecode="0" width="2250"/>
+      <level height="1125" preload="0" predecode="0" width="1125"/>
+      <level height="562" preload="0" predecode="0" width="562"/>
+      <level height="281" preload="1" predecode="1" width="281"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="71" fovmode="2">
-      <start pan="0" fov="100" tilt="0" projection="4"/>
-      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1" tilt="90"/>
+      <start pan="0" tilt="0" fov="100" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="140" fovstereographic="330" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="q1" datetime="1/03/2025 1:23 PM" source="" info="" latitude="" customnodeid="" title="IMG_20250301_1323162 Panorama2" copyright="Copyright,Spreadtrum,2011" description="Exif_JPEG_420" author="Artist-freed" comment="" nodeid="node4" longitude="" heading="71"/>
-    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
-      <label backgroundalpha="1" wordwrap="1" textalpha="1" backgroundcolor="0xffffff" height="20" enabled="1" width="180" textcolor="0x000000" background="1" bordercolor="0x000000" borderalpha="1" borderradius="1" border="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot url="{node2}" pan="-162.15" description="" skinid="ht_node" title="DCIM\PANORAMA\100_0352\DJI" id="Point01" tilt="-0.51" target=""/>
-      <hotspot url="{node5}" pan="-198.65" description="" skinid="ht_node" title="DCIM\PANORAMA\100_0414\DJI" id="Point02" tilt="-5.74" target=""/>
+    <userdata copyright="Copyright,Spreadtrum,2011" customnodeid="" description="Exif_JPEG_420" longitude="" nodeid="node4" tags="q1" heading="71" title="IMG_20250301_1323162 Panorama2" info="" author="Artist-freed" comment="" latitude="" datetime="1/03/2025 1:23 PM" source=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label height="20" textcolor="0x000000" borderalpha="1" bordercolor="0x000000" enabled="1" backgroundalpha="1" background="1" border="1" backgroundcolor="0xffffff" textalpha="1" borderradius="1" wordwrap="1" width="180"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0"/>
+      <hotspot pan="-162.15" tilt="-0.51" title="DCIM\PANORAMA\100_0352\DJI" description="" skinid="ht_node" id="Point01" url="{node2}" target=""/>
+      <hotspot pan="-198.65" tilt="-5.74" title="DCIM\PANORAMA\100_0414\DJI" description="" skinid="ht_node" id="Point02" url="{node5}" target=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomafteroutfov="40" zoomin="0" zoomout="0" enabled="1" zoomafterinfov="140" blendtime="1" zoomspeed="2" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" delay="none"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control lockedkeyboardzoom="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" speedwheel="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" hideabout="0" sensitivity="8" lockedwheel="0"/>
+    <transition delay="none" softedge="0" zoomfov="40" blendcolor="0x000000" enabled="1" zoomafterinfov="140" type="crossdissolve" zoomin="0" blendtime="1" zoomspeed="2" zoomout="0" zoomoutpause="1" zoomafteroutfov="40"/>
+    <animation clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertcontrol="1" lockedwheel="0" hideabout="0" sensitivity="8" lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" invertwheel="0" simulatemass="1" zoomcentercursor="1" speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0"/>
   </panorama>
   <masternode>
-    <userdata tags="" copyright="" description="" author="" comment="" title=""/>
+    <userdata copyright="" title="" description="" author="" tags="" comment=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
